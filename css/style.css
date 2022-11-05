@@ -566,50 +566,41 @@ h5 span {
 /*--------------------
 Navigation =========*/
 @media (max-width: 991px) {
-  .navbar-header {
-    float: none;
-  }
-
-  .navbar-toggle {
-    display: block;
-  }
-
-  .navbar-collapse {
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
-
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-
-  .navbar-nav {
-    float: none !important;
-    margin: 7.5px -15px;
-  }
-
-  .navbar-nav>li {
-    float: none;
-  }
-
-  .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .navbar-text {
-    float: none;
-    margin: 15px 0;
-  }
-
-  /* since 3.1.0 */
-  .navbar-collapse.collapse.in {
-    display: block !important;
-  }
-
-  .collapsing {
-    overflow: hidden !important;
-  }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+      float: none;
+      margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+      overflow: hidden!important;
+    }
 }
 
 .nav a {
@@ -649,14 +640,13 @@ Navigation =========*/
 .navbar-nav>li>a {
   line-height: 2.4rem;
   padding: 0.8rem 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   border-radius: 2px;
   color: black;
   overflow: hidden;
 }
-
-.navbar-nav>li.current>a {
+.navbar-nav > li.current > a {
   color: #39998E;
 }
 
