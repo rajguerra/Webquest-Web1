@@ -526,15 +526,15 @@ Navigation =========*/
         padding-bottom: 10px;
     }
     .navbar-text {
-        float: none;
-        margin: 15px 0;
+      float: none;
+      margin: 15px 0;
     }
     /* since 3.1.0 */
     .navbar-collapse.collapse.in { 
         display: block!important;
     }
     .collapsing {
-        overflow: hidden!important;
+      overflow: hidden!important;
     }
 }
 .nav a {
@@ -572,13 +572,12 @@ background: none;
 .navbar-nav > li > a {
   line-height: 2.4rem;
   padding: 0.8rem 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   border-radius: 2px;
   color: black;
   overflow: hidden;
 }
-
 .navbar-nav > li.current > a {
   color: #39998E;
 }
