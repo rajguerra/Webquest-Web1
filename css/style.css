@@ -1743,10 +1743,12 @@ a {
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #fe5b10;
+  color: #d95c46;
 }
 
-
+.podcast{
+  height: 400px !important;
+}
 
 .video-testimonial-block {
   position: relative;
@@ -1764,6 +1766,16 @@ a:hover {
   background-size: cover;
   top: 0;
   left: 0;
+}
+
+.video-thumbnail img{
+  width: 100%;
+  height: auto;
+}
+
+p span{
+  color: #000;
+  font-weight: bold;
 }
 
 .video-testimonial-block .video {}
@@ -1801,7 +1813,11 @@ a:hover {
 }
 
 .video-testimonial-block .video-play:hover::before {
-  color: #172651;
+  color: #d95c46;
+}
+
+.center{
+  margin: 0 auto;
 }
 
 .mb10 {
