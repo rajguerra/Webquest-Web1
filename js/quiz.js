@@ -10,68 +10,70 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
-    question: 'PHP foi desenvolvido para qual fim?',
+    question: 'Quem foi o presidente Eleito em 2022?',
     answers: [
       {
-        answer: 'Back-End',
+        answer: 'Jair Bolsonaro',
+        correct: false,
+      },
+      {
+        answer: 'Ciro Gomes',
+        correct: false,
+      },
+      {
+        answer: 'Luiz Inácio',
         correct: true,
       },
       {
-        answer: 'Front-End',
-        correct: false,
-      },
-      {
-        answer: 'Sistema operacional',
-        correct: false,
-      },
-      {
-        answer: 'Banco de dados',
+        answer: 'Simone Tebet',
         correct: false,
       },
     ],
   },
   {
-    question: 'Uma forma de declarar variável em JavaScript:',
+    question: 'A urna eletronica possui acesso a internet?',
     answers: [
       {
-        answer: '$var',
+        answer: 'Sim',
         correct: false,
       },
       {
-        answer: 'var',
+        answer: 'Não',
         correct: true,
-      },
-      {
-        answer: '@var',
-        correct: false,
-      },
-      {
-        answer: '#let',
-        correct: false,
       },
     ],
   },
   {
-    question: 'Qual o seletor de id no CSS?',
+    question: 'Quantos países no mundo usam o voto eletrônico?',
     answers: [
       {
-        answer: '#',
+        answer: 'Somente 3, sendo eles Brasil, Cuba e Venezuela',
+        correct: false,
+      },
+      {
+        answer: 'Mais de 20 países adotam ou já usaram alguma forma de voto eletrônico, para eleições gerais ou regionais.',
         correct: true,
       },
-      {
-        answer: '.',
-        correct: false,
-      },
-      {
-        answer: '@',
-        correct: false,
-      },
-      {
-        answer: '/',
-        correct: false,
-      },
+
     ],
   },
+  {
+    question: 'Como seu voto vai da urna eletrônica até o TSE?',
+    answer: [
+      {
+        answer: ' Os resultados das urnas são impressos e transportados por motos, barcos ou carros diretamente até o TSE',
+        correct: false
+      },
+      {
+        answer: ' Via Whatsapp',
+        correct: false
+      },
+      {
+        answer: ' Via rede de internet privativa (ou VPN)',
+        correct: true
+      }
+    ]
+  }
 ];
 
 // substituição do quizz para a primeira pergunta
