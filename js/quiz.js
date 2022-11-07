@@ -59,18 +59,18 @@ const questions = [
   },
   {
     question: 'Como seu voto vai da urna eletrônica até o TSE?',
-    answer: [
+    answers: [
       {
-        answer: ' Os resultados das urnas são impressos e transportados por motos, barcos ou carros diretamente até o TSE',
-        correct: false
+        answer: ' Vão de moto, carro ou barco até o TSE',
+        correct: false,
       },
       {
         answer: ' Via Whatsapp',
-        correct: false
+        correct: false,
       },
       {
         answer: ' Via rede de internet privativa (ou VPN)',
-        correct: true
+        correct: true,
       }
     ]
   }
