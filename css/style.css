@@ -25,7 +25,9 @@ p{
 	text-decoration: none;
 	color: inherit;
 }
-
+#logo{
+	max-width: 30%;
+}
 menu{
   display: block;
 }
