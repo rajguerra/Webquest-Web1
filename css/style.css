@@ -18,7 +18,9 @@ body {
 	font-size: 2em;
 	margin-bottom: 20px;
 }
-
+p{
+  text-align: justify;
+}
 .cabecalhoPrincipal-titulo a {
 	text-decoration: none;
 	color: inherit;
@@ -130,7 +132,7 @@ body {
 
 .rodapePrincipal-patrocinadores {
 	margin-top: 30px;
-	background: #F2F5F7 !important;
+	background: #9799A6 !important;
 	padding: 20px 0;
 }
 

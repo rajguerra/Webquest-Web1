@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Alurinha | Cursos online</title>
+	<title>Eleitorando</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/flexbox.css">
@@ -16,21 +16,41 @@
 	<header class="cabecalhoPrincipal">
 		<div class="container">
 			<h1 class="cabecalhoPrincipal-titulo">
-				<a href="#">Alurinha</a>
+				<a href="#">Eleitorando</a>
 			</h1>
 
 			<nav class="cabecalhoPrincipal-nav">
-				<a class="cabecalhoPrincipal-nav-link" href="#">Home</a>
-				<a class="cabecalhoPrincipal-nav-link" href="#">Cursos</a>
-				<a class="cabecalhoPrincipal-nav-link" href="#">Sobre nós</a>
-				<a class="cabecalhoPrincipal-nav-link" href="#">Contato</a>
-				<a class="cabecalhoPrincipal-nav-link cabecalhoPrincipal-nav-link-app" href="#">Nosso APP</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Início</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Estatísticas</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Quiz</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Jogo</a>
 			</nav>
 		</div>
 
 	</header>
 
 	<main class="conteudoPrincipal">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>Sistema Eleitoral Brasileiro</h2>
+					<p>O sistema eleitoral brasileiro determina a escolha dos representantes governamentais do país no Legislativo e no Executivo. A escolha deles se dá pelo voto popular, o meio pelo qual a população tem possibilidade de participar diretamente do processo político brasileiro.</p>
+					<p>Esse sistema foi estabelecido na Constituição Federal de 1988, e seu funcionamento é responsabilidade do Tribunal Superior Eleitoral (TSE). A escolha dos governantes e a participação popular pelo voto acontecem nas eleições, realizadas em nosso país a cada dois anos.</p>
+				</div>
+				<div class="col d-flex p-2 align-middle">
+					<img src="img/urna_eletronica.jpeg" class="img-fluid rounded" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="container text-justify">
+			<h2>Urnas Eletrônicas</h2>
+			<p>A urna eletrônica é o instrumento utilizado no Brasil desde 1996 para contabilizar os votos da população nas eleições. É através da urna eletrônica que a população brasileira escolhe seus candidatos, e a apuração dos resultados é totalmente digital.</p>
+			<p>Segundo o Tribunal Superior Eleitoral (TSE), dois terminais compõem a urna eletrônica: o terminal do mesário, onde o eleitor é identificado e autorizado a votar — inclusive por meio da biometria, se o eleitor já estiver cadastrado —, e o terminal do eleitor, onde é registrado numericamente o voto.</p>
+			<p>O terminal do mesário possui um teclado numérico, onde é digitado o número do título de eleitor, e uma tela de cristal líquido, onde aparece o nome do eleitor, se ele pertence àquela seção eleitoral e se está apto a votar. Antes da habilitação, nas seções onde há identificação biométrica , o eleitor tem sua identidade validada pela urna. Desta forma, um eleitor não pode votar por outro.</p>
+			<p>A urna eletrônica somente grava a indicação de que o eleitor já votou. Pelo embaralhamento interno e outros mecanismos de segurança, não há nenhuma possibilidade de se verificar quais candidatos um eleitor escolheu, em respeito à Constituição Federal, que determina o sigilo do voto.</p>
+			<p>Três pequenos sinais visuais (LEDs) auxiliam o mesário, informando-o se o terminal está disponível para o eleitor, se já completou o voto e se a urna eletrônica está funcionando ligada à corrente elétrica ou à bateria interna.</p>
+			<p>Já o terminal do eleitor possui teclado numérico, usado para registrar o voto, e uma tela de cristal líquido, onde aparecem as mensagens que orientam o eleitor para o registro de seu voto.</p>
+		</div>
 		<div class="container">
 			<section id="podcasts">
 				<div class="space-medium">
@@ -152,7 +172,7 @@
 					</div>
 				</div>
 			</section>
-			<h2 class="subtitulo">Nossos cursos</h2>
+			<!-- <h2 class="subtitulo">Nossos cursos</h2>
 
 			<nav>
 				<ul class="conteudoPrincipal-cursos">
@@ -196,7 +216,7 @@
 
 	</main>
 
-	<footer class="rodapePrincipal">
+	
 		<div class="container">
 
 			<section class="rodapePrincipal-navMap">
@@ -237,36 +257,11 @@
 				</nav>
 			</section>
 
-		</div>
-
+		</div> -->
+	<footer>
 		<section class="rodapePrincipal-patrocinadores">
-			<div class="container">
-				<ul class="rodapePrincipal-patrocinadores-list">
-					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura" href="#">
-							<img src="img/logos/alura.svg" alt="Logo da Alura">
-						</a>
-					</li>
-					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-caelum" href="#">
-							<img src="img/logos/caelum.svg" alt="Logo da Caelum">
-						</a>
-					</li>
-					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-casaDoCodigo" href="#">
-							<img src="img/logos/cdc.svg" alt="Logo da Casa do Código">
-						</a>
-					</li>
-				</ul>
-				<form class="rodapePrincipal-contatoForm" action="#">
-					<fieldset>
-						<legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Entre em contato conosco</legend>
-						<div class="rodapePrincipal-contatoForm-fieldset"> 
-							<input class="rodapePrincipal-contatoForm-emailInput" type="email" name="email-contato" id="email-contato">
-							<button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
-						</div>
-					</fieldset>
-				</form>
+			<div class="container text-center">
+				<a href="https://www.tse.jus.br/" class="text-decoration-none fs-5" target="_blank"><img src="img/logos/tse-logo.png" class="img-fluid w-25" alt="Logo do TSE">   Acesse para mais informações</a>
 			</div>
 		</section>
 	</footer>
