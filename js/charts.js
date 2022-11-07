@@ -40,8 +40,14 @@ function drawChartBar() {
           chart: {
             title: 'Comparação de Votos e Abstenções ao longo dos anos',
             subtitle: 'Comparação de   : 2014-2022',
+            
           },
-		  backgroundColor: 'none'
+		  backgroundColor: {
+            fill: 'none'
+          },
+          chartArea:{
+            backgroundColor: 'none'
+          }
         };
 
         var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
