@@ -26,6 +26,20 @@ p{
 	color: inherit;
 }
 
+menu{
+  display: block;
+}
+
+i#burguer{
+  cursor: pointer;
+  display: none;
+}
+
+i#burguer:hover{
+ color: #9799A6;
+  border-radius: 10%;
+}
+
 .cabecalhoPrincipal-nav-link {
 	padding: 10px;
 	margin-bottom: 10px;
@@ -34,9 +48,9 @@ p{
 	text-decoration: none;
 	transition: .5s;
 	display: block;
-
 	border-bottom: 1px solid #9799A6;
 }
+
 
 .conteudoPrincipal {
 	margin-top: 20px;
@@ -216,7 +230,6 @@ p{
 	.container {
 		width: 85%;	
 	}
-
 	.subtitulo {
 		text-align: left;
 	}
@@ -238,9 +251,9 @@ p{
 	.cabecalhoPrincipal-nav {
 		width: auto;
 	}
-
+  
 	.cabecalhoPrincipal-nav-link {
-		width: auto;
+    width: auto;
 		margin: 0 0 0 10px;
 	}
 
@@ -263,7 +276,7 @@ p{
 	.conteudoPrincipal-cursos-link {
 		margin: 1.333%;
 	}
-
+  
 	.conteudoPrincipal-cursos-link:nth-child(3n) {
 		margin-right: 1.33%;
 	}

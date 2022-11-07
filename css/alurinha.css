@@ -7,7 +7,6 @@
 .cabecalhoPrincipal-nav {
 	display: flex;
 }
-
 .rodapePrincipal-patrocinadores .container {
 	display: flex;
 	justify-content: space-between;
@@ -71,7 +70,12 @@
 	.cabecalhoPrincipal-nav {
 		flex-direction: column;
 	}
-
+	i#burguer{
+		display: block;
+	}
+	menu{
+		display: none;
+	}
 	.cabecalhoPrincipal .container {
 		flex-direction: column;
 		align-items: initial;
